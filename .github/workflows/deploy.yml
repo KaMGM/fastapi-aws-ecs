@@ -10,8 +10,8 @@ env:
   ECR_REPOSITORY: fastapi-app
   CONTAINER_NAME: fastapi
   ECS_TASK_DEFINITION: .aws/task-definition.json
-  ECS_SERVICE: VOTRE_SERVICE_ECS  # Remplacez par le nom de votre service ECS
-  ECS_CLUSTER: VOTRE_CLUSTER_ECS  # Remplacez par le nom de votre cluster ECS
+  ECS_SERVICE: fastapi-service  
+  ECS_CLUSTER: my-fargate-cluster  
 
 jobs:
   # ==========================================
